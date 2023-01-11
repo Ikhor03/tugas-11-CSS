@@ -1,0 +1,51 @@
+body{
+    background-color:palegoldenrod;
+    margin:0;
+    padding:0;
+}
+
+.header{
+    margin-top:0;
+    background-color:black;
+    display: block;
+    color:white;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    display:flex;
+    height: 50px;
+}
+
+li{
+    margin:auto 20px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.container-content{
+    column-width: 300px;
+    column-fill: balance;
+    column-rule: 2px solid black;
+}
+
+p{
+    margin: 0;
+}
+
+.span{
+    column-span:all;
+}
+
+.footer{
+    background-color: black;
+    height: 50px;
+    width:100%;
+    color:white;
+    text-align: center;
+}
